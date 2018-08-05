@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Android Basic Quiz</string>
+
+    <string name="q1">Question 1</string>
+    <string name="question_1">Which of the following characteristics define(s) Android?</string>
+    <string name="question_1_option_A">It is a Linux kernel-based system used on Smart watches, LEDs, etc.</string>
+    <string name="question_1_option_B">It is a closed-source Operating System used on Mobiles, Tablets, etc.</string>
+    <string name="question_1_option_C">It is a stack of software for Mobile devices which includes an
+        Operating System, middleware, and some key applications.</string>
+
+    <string name="q2">Question 2</string>
+    <string name="question_2">All of the following are core building blocks of Android except?</string>
+    <string name="question_2_option_A">Network</string>
+    <string name="question_2_option_B">Service</string>
+    <string name="question_2_option_C">Activity</string>
+
+    <string name="q3">Question 3</string>
+    <string name="question_3">What is the full meaning of APK?</string>
+    <string name="question_3_answer">Android Packaging Key</string>
+
+    <string name="q4">Question 4</string>
+    <string name="question_4">Differentiate between DP and SP</string>
+    <string name="question_4_option_A">DP is based on physical density of the screen while SP is also scaled
+        by user\'s font size.</string>
+    <string name="question_4_option_B">SP is based on physical density of the screen while DP is also scaled
+        by user\'s font size.</string>
+    <string name="question_4_option_C">None of the above</string>
+
+    <string name="q5">Question 5</string>
+    <string name="question_5">Which of these is/are View Groups?</string>
+    <string name="question_5_option_A">Relative Layout</string>
+    <string name="question_5_option_B">Constraint Layout</string>
+    <string name="question_5_option_C">Vertical Layout</string>
+
+    <string name="q6">Question 6</string>
+    <string name="question_6">What are the full meaning of DP and SP respectively?</string>
+    <string name="question_6_option_A">Density Pixels and Scale Pixels</string>
+    <string name="question_6_option_B">Density-independent Pixels and Scale-independent Pixels</string>
+    <string name="question_6_option_C">All of the above</string>
+
+    <string name="q7">Question 7</string>
+    <string name="question_7">What do you understand by Manifest file?</string>
+    <string name="question_7_option_A">It is the file that provides essentials information about
+    your app to the Android system</string>
+    <string name="question_7_option_B">It is the file that provides an interface for users to
+    interact with the application</string>
+    <string name="question_7_option_C">It is the messaging object that is used for communication
+    between the Android components</string>
+
+    <string name="q8">Question 8</string>
+    <string name="question_8">The toolset which includes source codes, libraries, emulators
+    and development tools for building Android application is</string>
+    <string name="question_8_answer">SDK</string>
+
+    <string name="q9">Question 9</string>
+    <string name="question_9">What is an Activity?</string>
+    <string name="question_9_option_A">It is the file that provides essentials information about your
+        app to the Android system</string>
+    <string name="question_9_option_B">It is the file that provides an interface for users to interact
+        with the application</string>
+    <string name="question_9_option_C">It is the messaging object that is used for communication between
+        the Android components</string>
+
+    <string name="q10">Question 10</string>
+    <string name="question_10">JDK stands for ______________________________
+        \nSDK stands for ______________________________</string>
+    <string name="question_10_option_A">Java Deployment Kit; Software Deployment Kit</string>
+    <string name="question_10_option_B">Java Desktop Kit; Software Desktop Kit</string>
+    <string name="question_10_option_C">Java Development Kit; Software Development Kit</string>
+
+    <string name="username">Welcome!</string>
+    <string name="score">Score: 0%</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="required">* Required  \n\nEnter your \'Username\' and click on \'Take Quiz\' button to proceed\n</string>
+    <string name="show_answers">Show Answers</string>
+</resources>

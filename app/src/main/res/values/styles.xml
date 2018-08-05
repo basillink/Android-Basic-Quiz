@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="quizapp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="quizapp.username">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/dimen_8dp</item>
+    </style>
+
+    <style name="quizapp.username.app_title">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="status_bar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/dimen_8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="quizapp.radio_group.question_layout">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">@dimen/dimen_8dp</item>
+        <item name="android:background">@drawable/question_layout_border</item>
+    </style>
+
+    <style name="quizapp.question_number">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="quizapp.questions">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="quizapp.radio_group">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="quizapp.options">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="action_buttons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">@dimen/dimen_8dp</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_8dp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+</resources>

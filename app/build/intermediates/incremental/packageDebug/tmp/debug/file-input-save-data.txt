@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Aug 04 21:47:20 WAT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Engr\\AndroidStudioProjects\\Android-Basic-Quiz\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+0.path=classes.dex
+0.set=DEX
+count=1

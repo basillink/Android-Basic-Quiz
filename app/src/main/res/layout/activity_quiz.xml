@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <RelativeLayout
+        style="@style/quizapp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/username_tv"
+            style="@style/status_bar"
+            android:layout_alignParentStart="true"
+            android:drawablePadding="@dimen/dimen_5dp"
+            android:drawableStart="@drawable/ic_user"
+            android:text="@string/username" />
+
+        <TextView
+            android:id="@+id/score_tv"
+            style="@style/status_bar"
+            android:layout_alignParentEnd="true"
+            android:text="@string/score" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q1" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_1" />
+
+                <RadioGroup
+                    android:id="@+id/option_group_1"
+                    style="@style/quizapp.radio_group">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_1A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_1_option_A" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_1B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_1_option_B" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_1C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_1_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q2" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_2" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_2"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_2A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_2_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/option_2B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_2_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/option_2C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_2_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/quizapp.radio_group.question_layout"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q3" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_3" />
+
+                <EditText
+                    android:id="@+id/edittext_answer_Q3"
+                    style="@style/quizapp.options"
+                    android:inputType="textCapWords"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q4" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_4" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_4"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_option_4A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_4_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/option_4B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_4_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/option_4C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_4_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q5" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_5" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_5"
+                    style="@style/quizapp.radio_group">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_5A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_5_option_A" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_5B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_5_option_B" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_option_5C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_5_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q6" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_6" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_6"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/option_6A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_6_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_option_6B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_6_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/option_6C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_6_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q7" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_7" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_7"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_option_7A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_7_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/option_7B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_7_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/option_7C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_7_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/quizapp.radio_group.question_layout"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q8" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_8" />
+
+                <EditText
+                    android:id="@+id/edittext_answer_Q8"
+                    style="@style/quizapp.options"
+                    android:inputType="textCapCharacters"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q9" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_9" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_9"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/option_9A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_9_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_option_9B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_9_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/option_9C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_9_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/quizapp.radio_group.question_layout">
+
+                <TextView
+                    style="@style/quizapp.question_number"
+                    android:text="@string/q10" />
+
+                <TextView
+                    style="@style/quizapp.questions"
+                    android:text="@string/question_10" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_10"
+                    style="@style/quizapp.radio_group">
+
+                    <RadioButton
+                        android:id="@+id/option_10A"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_10_option_A" />
+
+                    <RadioButton
+                        android:id="@+id/option_10B"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_10_option_B" />
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_option_10C"
+                        style="@style/quizapp.options"
+                        android:text="@string/question_10_option_C" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/clear_selection"
+                    style="@style/action_buttons"
+                    android:onClick="resetAnswers"
+                    android:text="@string/reset" />
+
+                <Button
+                    android:id="@+id/submit_answers"
+                    style="@style/action_buttons"
+                    android:onClick="showAnswers"
+                    android:text="@string/show_answers" />
+
+                <Button
+                    android:id="@+id/show_answers"
+                    style="@style/action_buttons"
+                    android:onClick="submitAnswers"
+                    android:text="@string/submit" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
